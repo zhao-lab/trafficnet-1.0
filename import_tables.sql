@@ -1,0 +1,2 @@
+LOAD DATA LOCAL INFILE '/home/jackjia/traffic/das1/DataWsu.csv' INTO TABLE DataWsu
+FIELDS TERMINATED BY ',' ENCLOSED BY '"' LINES TERMINATED BY '\n';
