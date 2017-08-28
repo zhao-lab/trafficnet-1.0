@@ -23,7 +23,7 @@ Contribution
 Contribution are always **welcome and recommended**! Here is how:
 
 - Fork the repository ([here is the guide](https://github.com/TrafficNet/TrafficNet.git)).
-- Clone to your machine ```git clone https://github.com/jyh0082007/TrafficNet ```
+- Clone to your machine ```https://github.com/TrafficNet/TrafficNet.git ```
 - Make your changes
 - Create a pull request
 
