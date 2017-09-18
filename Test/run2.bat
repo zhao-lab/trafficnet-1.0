@@ -3,7 +3,7 @@ break>AutoCode.txt
 setlocal ENABLEDELAYEDEXPANSION
 
 rem Saved in C:\Users\macshen\Documents\TempZhaobinM\Test the batch
-for /F "delims="  %%A in (A.txt) do (
+for /F "delims="  %%A in (Temp.txt) do (
 	set outputline=%%A
 	for /F "tokens=1-3 delims=," %%H in (DataTypeMapping_Test.csv) do (
 		set Hcomma=,%%H

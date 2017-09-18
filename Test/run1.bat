@@ -9,7 +9,7 @@ break>Temp.txt
 	   echo Drop table if exists SpOneDay.%%g;>>Temp.txt
 	   echo Create table if not exists SpOneDay.%%g(>>Temp.txt
 	   set /a iLoop=1
-	   for %%a in (%NameOfField%) do (
+	   for %%a in (!NameOfField!) do (
 			if !iLoop!==1 ( echo %%a>>Temp.txt) else ( echo ,%%a>>Temp.txt)
 			set /a iLoop = !iLoop!+1
 	   )
