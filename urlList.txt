@@ -1,0 +1,6 @@
+https://n-rde-datafiles.s3.amazonaws.com/one%20day%20sample/DataDas_04_11_13.csv.zip?AWSAccessKeyId=AKIAJYD7I2FXD2QQFBNA&Expires=1506907682&Signature=we25NhxHfoZorh3JJWDsVtnmeIU%3D
+https://n-rde-datafiles.s3.amazonaws.com/one%20day%20sample/DataFrontTargets_04_11_13.csv.zip?AWSAccessKeyId=AKIAJYD7I2FXD2QQFBNA&Expires=1506907682&Signature=dv01gbU1Bcrlm3%2F7vt7%2F2Gaql6o%3D
+https://n-rde-datafiles.s3.amazonaws.com/one%20day%20sample/DataGpsDas_04_11_13.csv.zip?AWSAccessKeyId=AKIAJYD7I2FXD2QQFBNA&Expires=1506907682&Signature=4wz18quLe1bh9%2FoEUO7XbsJHxtw%3D
+https://n-rde-datafiles.s3.amazonaws.com/one%20day%20sample/DataLane_04_11_13.csv.zip?AWSAccessKeyId=AKIAJYD7I2FXD2QQFBNA&Expires=1506907682&Signature=HvzZLrGvAdQDEw5Bi6EmkKmXcUQ%3D
+https://n-rde-datafiles.s3.amazonaws.com/one%20day%20sample/DataWsu_04_11_13.csv.zip?AWSAccessKeyId=AKIAJYD7I2FXD2QQFBNA&Expires=1506907682&Signature=%2BCdoBGf7%2BiCKWPYWTz9106K5Ms0%3D
+https://n-rde-datafiles.s3.amazonaws.com/one%20day%20sample/DAS1_Trip_Summary_File_04_11_13.csv.zip?AWSAccessKeyId=AKIAJYD7I2FXD2QQFBNA&Expires=1506907682&Signature=Gh8sdaQIUBHLcvbTgFgfx1tx60Y%3D
