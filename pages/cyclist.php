@@ -35,12 +35,12 @@
         <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
     <![endif]-->
     <?php
-    $conn = mysql_connect('localhost:3306',
-      'root','umtri');
+    $conn = mysqli_connect('localhost:3306',
+      'root','dev','TrafficNet');
     if(!$conn){
-      die('Could no connect:'.mysql_error());
-    }
-    mysql_select_db('das1');
+   echo "Error: Unable to connect to MySQL." . PHP_EOL;
+  exit;    
+}
 
     ?>
   </head>
@@ -129,7 +129,73 @@
         </section>
 
         <!-- Main content -->
+
         <section class="content">
+          <div class="row">
+            <div class="col-xs-12">
+              <div class="box">
+                <div class="box-header">
+                <?php
+                    $rs = mysqli_query($conn,"SELECT count(*) FROM CarFollowingEvents " );
+                    $rows = mysqli_fetch_array($rs);
+                    $count = intval($rows[0]);
+                ?>
+                  <h3 class="box-title">Cyclist Events (shown 10 out of <b><?=$count?></b> entries)</h3>
+                </div><!-- /.box-header -->
+                <div class="box-body">
+                  <table id="example2" class="table table-bordered table-hover">
+                    <thead>
+                      <tr>
+                        <th>device</th>
+                        <th>trip</th>
+                        <th>TargetID</th>
+                        <th>ObstacleId</th>
+                        <th>endCyclistTime</th>
+                        <th>beginCyclistTime</th>
+                        <th>cyclistDuration</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                    <?php
+                    $rs = mysqli_query($conn,"SELECT * from cyclistevents limit 10" );
+                    $myrow = mysqli_fetch_array($rs);
+                    do{
+
+                    ?>
+                      <tr>
+                        <td><?=$myrow["device"];?></td>
+                        <td><?=$myrow["trip"];?></td>
+                        <td><?=$myrow["TargetID"];?></td>
+                        <td><?=$myrow["ObstacleId"];?></td>
+                        <td><?=$myrow["endCyclistTime"];?></td>
+                        <td><?=$myrow["beginCyclistTime"];?></td>
+                        <td><?=$myrow["cyclistDuration"];?></td>
+                      </tr>
+                    <?php
+                  }
+                  while($myrow = mysqli_fetch_array($rs));
+                    ?>
+                    </tfoot>
+                  </table>
+                </div><!-- /.box-body -->
+              </div><!-- /.box -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
         </section><!-- /.content -->
       </div><!-- /.content-wrapper -->

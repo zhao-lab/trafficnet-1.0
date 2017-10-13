@@ -35,13 +35,12 @@
         <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
     <![endif]-->
     <?php
-    $conn = mysql_connect('localhost:3306',
-      'root','umtri');
+    $conn = mysqli_connect('localhost:3306',
+      'root','dev','TrafficNet');
     if(!$conn){
-      die('Could no connect:'.mysql_error());
-    }
-    mysql_select_db('das1');
-
+	 echo "Error: Unable to connect to MySQL." . PHP_EOL;
+	exit;    
+}
     ?>
   </head>
   <body class="skin-blue">
@@ -135,8 +134,8 @@
               <div class="box">
                 <div class="box-header">
                 <?php
-                    $rs = mysql_query("SELECT count(*) FROM CarFollowingEvents " );
-                    $rows = mysql_fetch_array($rs);
+                    $rs = mysqli_query($conn,"SELECT count(*) FROM CarFollowingEvents " );
+                    $rows = mysqli_fetch_array($rs);
                     $count = intval($rows[0]);
                 ?>
                   <h3 class="box-title">Car Following Events (shown 10 out of <b><?=$count?></b> entries)</h3>
@@ -153,8 +152,8 @@
                     </thead>
                     <tbody>
                     <?php
-                    $rs = mysql_query("SELECT * FROM CarFollowingEvents limit 10" );
-                    $myrow = mysql_fetch_array($rs);
+                    $rs = mysqli_query($conn,"SELECT * FROM CarFollowingEvents limit 10" );
+                    $myrow = mysqli_fetch_array($rs);
                     do{
 
                     ?>
@@ -166,7 +165,7 @@
                       </tr>
                     <?php
                   }
-                  while($myrow = mysql_fetch_array($rs));
+                  while($myrow = mysqli_fetch_array($rs));
                     ?>
                     </tfoot>
                   </table>
@@ -178,8 +177,8 @@
               <div class="box">
                 <div class="box-header">
                 <?php
-                    $rs = mysql_query("SELECT count(*) FROM CarFollowingSeq " );
-                    $rows = mysql_fetch_array($rs);
+                    $rs = mysqli_query($conn,"SELECT count(*) FROM CarFollowingSeq " );
+                    $rows = mysqli_fetch_array($rs);
                     $count = intval($rows[0]);
                 ?>
                   <h3 class="box-title">Car Following Sequence (shown 10 out of <b><?=$count?></b> entries)</h3>
@@ -204,8 +203,8 @@
                     </thead>
                     <tbody>
                     <?php
-                    $rs = mysql_query("SELECT * FROM CarFollowingSeq limit 10" );
-                    $myrow = mysql_fetch_array($rs);
+                    $rs = mysqli_query($conn,"SELECT * FROM CarFollowingSeq limit 10" );
+                    $myrow = mysqli_fetch_array($rs);
                     do{
 
                     ?>
@@ -225,7 +224,7 @@
                       </tr>
                     <?php
                   }
-                  while($myrow = mysql_fetch_array($rs));
+                  while($myrow = mysqli_fetch_array($rs));
                     ?>
                     </tfoot>
                   </table>

@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html>
   <head>
     <meta charset="UTF-8">
@@ -35,16 +35,14 @@
         <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
     <![endif]-->
     <?php
-	//phpinfo();
     $conn = mysqli_connect('localhost:3306',
       'root','dev','TrafficNet');
     if(!$conn){
    echo "Error: Unable to connect to MySQL." . PHP_EOL;
   exit;    
-}  
+}
 
-  
-?>
+    ?>
   </head>
   <body class="skin-blue">
     <div class="wrapper">
@@ -126,97 +124,48 @@
           <ol class="breadcrumb">
             <li><a href="../index.html"><i class="fa fa-dashboard"></i> Home</a></li>
             <li><a href="#"><i class="fa fa-dashboard"></i> Scenario Store</a></li>
-            <li class="active">Free flow</li>
+            <li class="active">Lane departure</li>
           </ol>
         </section>
 
         <!-- Main content -->
+
         <section class="content">
           <div class="row">
             <div class="col-xs-12">
               <div class="box">
                 <div class="box-header">
                 <?php
-                    $rs = mysqli_query($conn,"SELECT count(*) FROM FreeFlowEvents " );
+                    $rs = mysqli_query($conn,"SELECT count(*) FROM CutInEvents " );
                     $rows = mysqli_fetch_array($rs);
                     $count = intval($rows[0]);
                 ?>
-                  <h3 class="box-title">Free Flow Events (shown 10 out of <b><?=$count?></b> entries)</h3>
+                  <h3 class="box-title">Cut-in Events (shown 10 out of <b><?=$count?></b> entries)</h3>
                 </div><!-- /.box-header -->
                 <div class="box-body">
                   <table id="example2" class="table table-bordered table-hover">
                     <thead>
                       <tr>
-                        <th>eventNum</th>
                         <th>Device</th>
                         <th>Trip</th>
-                        <th>Time</th>
-                        <th>GpsValidWsu</th>
-                        <th>GpsTimeWsu</th>
-                        <th>LatitudeWsu</th>
-                        <th>LongitudeWsu</th>
-                        <th>AltitudeWsu</th>
-                        <th>GpsHeadingWsu</th>
-                        <th>GpsSpeedWsu</th>
-                        <th>HdopWsu</th>
-                        <th>PdopWsu</th>
-                        <th>FixQualityWsu</th>
-                        <th>GpsCoastingWsu</th>
-                        <th>ValidCanWsu</th>
-                        <th>YawRateWsu</th>
-                        <th>SpeedWsu</th>
-                        <th>TurnSngRWsu</th>
-                        <th>TurnSngLWsu</th>
-                        <th>BrakeAbsTcsWsu</th>
-                        <th>AxWsu</th>
-                        <th>PrndlWsu</th>
-                        <th>VsaActiveWsu</th>
-                        <th>WiperWsu</th>
-                        <th>ThrottleWsu</th>
-                        <th>SteerWsu</th>
-                        <th>NearestNode</th>
-                        <th>NNodeLat</th>
-                        <th>NNodeLon</th>
+			<th>Time</th>
+                        <th>TargetID</th>
+                        <th>ObstacleId</th>
                       </tr>
                     </thead>
                     <tbody>
                     <?php
-                    $rs = mysqli_query($conn,"SELECT * FROM FreeFlowEvents limit 10" );
+                    $rs = mysqli_query($conn,"SELECT * from CutInEvents limit 10" );
                     $myrow = mysqli_fetch_array($rs);
                     do{
 
                     ?>
                       <tr>
-                        <td><?=$myrow["eventNum"];?></td>
-                        <td><?=$myrow["Device"];?></td>
-                        <td><?=$myrow["Trip"];?></td>
-                        <td><?=$myrow["Time"];?></td>
-                        <td><?=$myrow["GpsValidWsu"];?></td>
-                        <td><?=$myrow["GpsTimeWsu"];?></td>
-                        <td><?=$myrow["LatitudeWsu"];?></td>
-                        <td><?=$myrow["LongitudeWsu"];?></td>
-                        <td><?=$myrow["AltitudeWsu"];?></td>
-                        <td><?=$myrow["GpsHeadingWsu"];?></td>
-                        <td><?=$myrow["GpsSpeedWsu"];?></td>
-                        <td><?=$myrow["HdopWsu"];?></td>
-                        <td><?=$myrow["PdopWsu"];?></td>
-                        <td><?=$myrow["FixQualityWsu"];?></td>
-                        <td><?=$myrow["GpsCoastingWsu"];?></td>
-                        <td><?=$myrow["ValidCanWsu"];?></td>
-                        <td><?=$myrow["YawRateWsu"];?></td>
-                        <td><?=$myrow["SpeedWsu"];?></td>
-                        <td><?=$myrow["TurnSngRWsu"];?></td>
-                        <td><?=$myrow["TurnSngLWsu"];?></td>
-                        <td><?=$myrow["BrakeAbsTcsWsu"];?></td>
-                        <td><?=$myrow["AxWsu"];?></td>
-                        <td><?=$myrow["PrndlWsu"];?></td>
-                        <td><?=$myrow["VsaActiveWsu"];?></td>
-                        <td><?=$myrow["WiperWsu"];?></td>
-                        <td><?=$myrow["ThrottleWsu"];?></td>
-                        <td><?=$myrow["SteerWsu"];?></td>
-                        <td><?=$myrow["NearestNode"];?></td>
-                        <td><?=$myrow["NNodeLat"];?></td>
-                        <td><?=$myrow["NNodeLon"];?></td>
+                        <td><?=$myrow["device"];?></td>
+                        <td><?=$myrow["trip"];?></td>
+                        <td><?=$myrow["time"];?></td>
+		   	<td><?=$myrow["TargetId"];?></td>
+                        <td><?=$myrow["ObstacleId"];?></td>
                       </tr>
                     <?php
                   }
@@ -226,6 +175,22 @@
                   </table>
                 </div><!-- /.box-body -->
               </div><!-- /.box -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
         </section><!-- /.content -->
@@ -280,3 +245,4 @@
     <script src="../dist/js/demo.js" type="text/javascript"></script>
   </body>
 </html>
+

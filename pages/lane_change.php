@@ -36,12 +36,13 @@
     <![endif]-->
     <?php
 	//phpinfo();
-    $conn = mysql_connect('localhost:3306',
-      'root','umtri');
+    $conn = mysqli_connect('localhost:3306',
+      'root','dev','TrafficNet');
     if(!$conn){
-      die('Could no connect:'.mysql_error());
-    }
-    mysql_select_db('das1');
+	 echo "Error: Unable to connect to MySQL." . PHP_EOL;
+	exit;    
+}
+
     ?>
   </head>
   <body class="skin-blue">
@@ -135,8 +136,8 @@
               <div class="box">
                 <div class="box-header">
                 <?php
-                    $rs = mysql_query("SELECT count(*) FROM LaneChangeEventLeftSeq " );
-                    $rows = mysql_fetch_array($rs);
+                    $rs = mysqli_query($conn,"SELECT count(*) FROM laneChangeLeft " );
+                    $rows = mysqli_fetch_array($rs);
                     $count = intval($rows[0]);
                 ?>
                   <h3 class="box-title">Lane Change Left Sequence (shown 10 out of <b><?=$count?></b> entries)</h3>
@@ -147,28 +148,24 @@
                       <tr>
                         <th>Device</th>
                         <th>Trip</th>
-                        <th>StartTime</th>
-                        <th>LeftWheelPassTime</th>
-                        <th>RightWheelPassTime</th>
+                        <th>crossTime</th>
                       </tr>
                     </thead>
                     <tbody>
                     <?php
-                    $rs = mysql_query("SELECT * FROM LaneChangeEventLeftSeq limit 10" );
-                    $myrow = mysql_fetch_array($rs);
+                    $rs = mysqli_query($conn,"SELECT * FROM laneChangeLeft limit 10" );
+                    $myrow = mysqli_fetch_array($rs);
                     do{
 
                     ?>
                       <tr>
                         <td><?=$myrow["device"];?></td>
                         <td><?=$myrow["trip"];?></td>
-                        <td><?=$myrow["startTime"];?></td>
-                        <td><?=$myrow["leftWheelPassTime"];?></td>
-                        <td><?=$myrow["rightWheelPassTime"];?></td>
+                        <td><?=$myrow["time"];?></td>
                       </tr>
                     <?php
                   }
-                  while($myrow = mysql_fetch_array($rs));
+                  while($myrow = mysqli_fetch_array($rs));
                     ?>
                     </tfoot>
                   </table>
@@ -180,8 +177,8 @@
               <div class="box">
                 <div class="box-header">
                 <?php
-                    $rs = mysql_query("SELECT count(*) FROM LaneChangeEventRightSeq " );
-                    $rows = mysql_fetch_array($rs);
+                    $rs = mysqli_query($conn,"SELECT count(*) FROM laneChangeRight " );
+                    $rows = mysqli_fetch_array($rs);
                     $count = intval($rows[0]);
                 ?>
                   <h3 class="box-title">Lane Change Right Sequence (shown 10 out of <b><?=$count?></b> entries)</h3>
@@ -192,28 +189,24 @@
                       <tr>
                         <th>Device</th>
                         <th>Trip</th>
-                        <th>StartTime</th>
-                        <th>LeftWheelPassTime</th>
-                        <th>RightWheelPassTime</th>
+                        <th>crossTime</th>
                       </tr>
                     </thead>
                     <tbody>
                     <?php
-                    $rs = mysql_query("SELECT * FROM LaneChangeEventRightSeq limit 10" );
-                    $myrow = mysql_fetch_array($rs);
+                    $rs = mysqli_query($conn,"SELECT * FROM laneChangeRight limit 10" );
+                    $myrow = mysqli_fetch_array($rs);
                     do{
 
                     ?>
                       <tr>
                         <td><?=$myrow["device"];?></td>
                         <td><?=$myrow["trip"];?></td>
-                        <td><?=$myrow["startTime"];?></td>
-                        <td><?=$myrow["leftWheelPassTime"];?></td>
-                        <td><?=$myrow["rightWheelPassTime"];?></td>
+                        <td><?=$myrow["time"];?></td>
                       </tr>
                     <?php
                   }
-                  while($myrow = mysql_fetch_array($rs));
+                  while($myrow = mysqli_fetch_array($rs));
                     ?>
                     </tfoot>
                   </table>
