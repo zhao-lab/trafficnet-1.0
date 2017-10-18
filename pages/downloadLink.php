@@ -1,1 +1,1 @@
-<a href="#"><i class="fa fa-download" aria-hidden="true"></i>  </a>
+<a href="~/TrafficNet"><i class="fa fa-download" aria-hidden="true"></i>  </a>
