@@ -75,7 +75,7 @@
             <small>Control panel</small>
           </h1>
           <a href="https://arxiv.org/abs/1607.02687"><i class="fa fa-file-pdf-o" aria-hidden="true"></i>  </a>
-          <a href="#"><i class="fa fa-download" aria-hidden="true"></i>  </a>
+          <?php include 'downloadLink.php';?>
           <ol class="breadcrumb">
             <li><a href="../index.html"><i class="fa fa-dashboard"></i> Home</a></li>
             <li><a href="#"><i class="fa fa-dashboard"></i> Scenario Store</a></li>
