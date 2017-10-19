@@ -41,8 +41,8 @@
               </ul>
             </li>
             <li>
-              <a href="https://github.com/jyh0082007/TrafficNet">
-                <i class="fa fa-th"></i> <span>Contribute</span> <small class="label pull-right bg-green">new</small>
+              <a href="https://github.com/TrafficNet">
+                <i class="fa fa-th"></i> <span>Github</span> <small class="label pull-right bg-green">new</small>
               </a>
             </li>
           </ul>
