@@ -75,7 +75,7 @@
             Dashboard
             <small>Control panel</small>
           </h1>
-          <a href="https://arxiv.org/abs/1607.02687"><i class="fa fa-file-pdf-o" aria-hidden="true"></i>  </a>
+          <a href="http://www-personal.umich.edu/~zhaoding/accelerated-evaluation.html#carfollow"><i class="fa fa-file-pdf-o" aria-hidden="true"></i>  </a>
           <?php include 'downloadLink.php';?>
           <ol class="breadcrumb">
             <li><a href="../index.html"><i class="fa fa-dashboard"></i> Home</a></li>
