@@ -1,3 +1,4 @@
+<?php include 'pagesHeader.php';?>
 <!DOCTYPE html>
 <html>
   <head>
