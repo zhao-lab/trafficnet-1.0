@@ -28,7 +28,7 @@
               </a>
               <ul class="treeview-menu">
                 <!-- <li><a href="free_flow.php"><i class="fa fa-circle-o"></i> Free Flow</a></li> -->
-                <li><a href="pages/lane_change.php"><i class="fa fa-circle-o"></i> Lane Change</a></li>
+                <li><a href="/pages/lane_change.php"><i class="fa fa-circle-o"></i> Lane Change</a></li>
                 <!-- <li><a href="pedestrain_crossing.php"><i class="fa fa-circle-o"></i> Pedestrain</a></li> -->
                 <li><a href="pages/secure_car_following.php"><i class="fa fa-circle-o"></i> Car Following</a></li>
                 <!-- <li><a href="cyclist.php"><i class="fa fa-circle-o"></i> Cyclist</a></li> -->
