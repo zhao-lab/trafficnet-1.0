@@ -23,8 +23,8 @@
             <li class="treeview">
               <a href="http://traffic-net.org/index.html">
                 <i class="fa fa-files-o"></i>
-                <span>Scenario Store</span>
-                <span class="label label-primary pull-right">8</span>
+                <span>Scenario Store Examples</span>
+                <span class="label label-primary pull-right">2</span>
               </a>
               <ul class="treeview-menu">
                 <!-- <li><a href="free_flow.php"><i class="fa fa-circle-o"></i> Free Flow</a></li> -->
