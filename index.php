@@ -58,7 +58,7 @@
         </nav>
       </header>
       <!-- Left side column. contains the logo and sidebar -->
-      <?php include 'menubar.php';?>
+      <?php include 'pages/menubar.php';?>
 
       <!-- Right side column. Contains the navbar and content of the page -->
       <div class="content-wrapper">
