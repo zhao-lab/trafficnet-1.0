@@ -30,7 +30,7 @@
                 <!-- <li><a href="free_flow.php"><i class="fa fa-circle-o"></i> Free Flow</a></li> -->
                 <li><a href="lane_change.php"><i class="fa fa-circle-o"></i> Lane Change</a></li>
                 <!-- <li><a href="pedestrain_crossing.php"><i class="fa fa-circle-o"></i> Pedestrain</a></li> -->
-                <li><a href="secure_car_following.php"><i class="fa fa-circle-o"></i> Car Following</a></li>
+                <li><a href="pages/secure_car_following.php"><i class="fa fa-circle-o"></i> Car Following</a></li>
                 <!-- <li><a href="cyclist.php"><i class="fa fa-circle-o"></i> Cyclist</a></li> -->
                 <!-- <li><a href="primitiveOneDay.php"><i class="fa fa-circle-o"></i> Driving primitive</a></li> -->
                 <!-- <li><a href="v2v.php"><i class="fa fa-circle-o"></i> v2v</a></li> -->
