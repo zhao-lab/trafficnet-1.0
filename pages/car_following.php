@@ -51,7 +51,7 @@
       
       <header class="main-header">
         <!-- Logo -->
-        <a href="../index.html" class="logo"><b>Traffic</b>Net</a>
+        <a href="../index.php" class="logo"><b>Traffic</b>Net</a>
         <!-- Header Navbar: style can be found in header.less -->
         <nav class="navbar navbar-static-top" role="navigation">
           <!-- Sidebar toggle button-->

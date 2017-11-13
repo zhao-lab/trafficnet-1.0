@@ -55,6 +55,7 @@ function showForm($error="LOGIN"){
         </table>  
       </form>
       <div id="source">Micro Protector 1.0</div>
+      <div id="source">Micro Protector 1.0</div>
    </div>
 </body>       
 
