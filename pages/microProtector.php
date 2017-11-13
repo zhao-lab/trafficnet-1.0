@@ -16,7 +16,7 @@
  ******************************************************************************/
 
 
-$Password = 'demo'; // Set your password here
+$Password = 'Goblue'; // Set your password here
 
 
 
