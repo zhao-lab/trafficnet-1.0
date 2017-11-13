@@ -38,7 +38,7 @@ function showForm($error="LOGIN"){
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "DTD/xhtml1-transitional.dtd">
 <html>
 <head>
-   <title>Micro Protector</title>
+   <title>TrafficNet | User login</title>
    <link href="style/style.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -54,14 +54,13 @@ function showForm($error="LOGIN"){
           </td></tr>
         </table>  
       </form>
-      <div id="source">This dataset has been purchased by Mcity and only visible to Mcity members. \r\n
+      <div id="source">This dataset has been purchased by Mcity and only visible to Mcity members. </div>
+      <div id="source"> </div>
 
-      For further information, please contact <a href="https://mcity.umich.edu/">Mcity</a> at University of Michigan</div>
-
-      <div id="source">
-
-
-      Micro Protector 1.0</div>
+      <div id="source">For further information, please contact <a href="https://mcity.umich.edu/">Mcity</a> at University of Michigan</div>
+      <div id="source"> </div>
+      <div id="source"> </div>
+      <div id="source">Micro Protector 1.0</div>
    </div>
 </body>       
 
