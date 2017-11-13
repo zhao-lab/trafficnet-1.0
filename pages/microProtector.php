@@ -54,7 +54,7 @@ function showForm($error="LOGIN"){
           </td></tr>
         </table>  
       </form>
-      <div id="source">This dataset has been purchased by Mcity and only visible to Mcity members. 
+      <div id="source">This dataset has been purchased by Mcity and only visible to Mcity members. \r\n
 
       For further information, please contact <a href="https://mcity.umich.edu/">Mcity</a> at University of Michigan</div>
 
