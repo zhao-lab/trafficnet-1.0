@@ -5,7 +5,8 @@ $pass = $_POST['password'];
 if($user == "admin"
 && $pass == "admin")
 {
-        include("car_following.php");
+        // include '/pages/car_following.php';
+        include 'pages/menubar.php'
 }
 else
 {
