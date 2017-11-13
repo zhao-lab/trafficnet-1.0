@@ -13,8 +13,8 @@ else
     {?>
 
             <form method="POST" action="secure_car_following.php">
-            User <input type="text" name="user"></input><br/>
-            Pass <input type="password" name="pass"></input><br/>
+            user <input type="text" name="user"></input><br/>
+            pass <input type="password" name="pass"></input><br/>
             <input type="submit" name="submit" value="Go"></input>
             </form>
     <?}
