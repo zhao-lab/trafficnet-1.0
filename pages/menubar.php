@@ -16,12 +16,12 @@
           <ul class="sidebar-menu">
             <li class="header">MAIN NAVIGATION</li>
             <li class="active treeview">
-              <a href="http://traffic-net.org/index.html">
+              <a href="http://traffic-net.org/index.php">
                 <i class="fa fa-dashboard"></i> <span>Dashboard</span> <i class="fa fa-angle-left pull-right"></i>
               </a>
             </li>
             <li class="treeview">
-              <a href="http://traffic-net.org/index.html">
+              <a href="http://traffic-net.org/index.php">
                 <i class="fa fa-files-o"></i>
                 <span>Scenario Store Examples</span>
                 <span class="label label-primary pull-right">2</span>
