@@ -24,7 +24,7 @@
               <a href="http://traffic-net.org/index.php">
                 <i class="fa fa-files-o"></i>
                 <span>Scenario Store Examples</span>
-                <span class="label label-primary pull-right">2</span>
+                <span class="label label-primary pull-right">8</span>
               </a>
               <ul class="treeview-menu">
                 <li><a href="/pages/contact.php"><i class="fa fa-circle-o"></i> Free Flow</a></li>
