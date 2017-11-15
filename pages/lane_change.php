@@ -1,4 +1,4 @@
-<?php require_once('microProtector.php'); ?>
+<!-- <?php require_once('microProtector.php'); ?> -->
 
 <!DOCTYPE html>
 <html>

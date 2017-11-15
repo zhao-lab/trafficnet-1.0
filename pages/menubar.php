@@ -27,10 +27,10 @@
                 <span class="label label-primary pull-right">8</span>
               </a>
               <ul class="treeview-menu">
-                <li><a href="/pages/contact.php"><i class="fa fa-circle-o"></i> Free Flow</a></li>
                 <li><a href="/pages/lane_change.php"><i class="fa fa-circle-o"></i> Lane Change</a></li>
-                <li><a href="/pages/contact.php"><i class="fa fa-circle-o"></i> Pedestrain</a></li>
                 <li><a href="/pages/car_following.php"><i class="fa fa-circle-o"></i> Car Following</a></li>
+                <li><a href="/pages/contact.php"><i class="fa fa-circle-o"></i> Free Flow</a></li>
+                <li><a href="/pages/contact.php"><i class="fa fa-circle-o"></i> Pedestrain</a></li>
                 <li><a href="/pages/contact.php"><i class="fa fa-circle-o"></i> Cyclist</a></li>
                 <li><a href="/pages/contact.php"><i class="fa fa-circle-o"></i> Driving primitive</a></li>
                 <li><a href="/pages/contact.php"><i class="fa fa-circle-o"></i> v2v</a></li>
