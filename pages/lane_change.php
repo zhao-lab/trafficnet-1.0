@@ -1,5 +1,3 @@
-<!-- <?php require_once('microProtector.php'); ?> -->
-
 <!DOCTYPE html>
 <html>
   <head>
