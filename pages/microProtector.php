@@ -54,10 +54,9 @@ function showForm($error="LOGIN"){
           </td></tr>
         </table>  
       </form>
-      <div id="source">This dataset has been purchased by Mcity and only visible to Mcity members. </div>
+      <div id="source">We would like to provide free access to researchers in academia for non-commercialized purposes. Please directly contact <a href="http://www-personal.umich.edu/~zhaoding/index.html">Ding Zhao</a>. For commercialized purpose, please contact <a href="https://mcity.umich.edu/">Mcity</a> at University of Michigan</div>
       <div id="source"> </div>
 
-      <div id="source">For further information, please contact <a href="https://mcity.umich.edu/">Mcity</a> at University of Michigan</div>
       <div id="source"> </div>
       <div id="source"> </div>
       <div id="source">Micro Protector 1.0</div>
@@ -67,3 +66,5 @@ function showForm($error="LOGIN"){
 <?php   
 }
 ?>
+
+http://www-personal.umich.edu/~zhaoding/research.html

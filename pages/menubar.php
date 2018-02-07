@@ -29,12 +29,12 @@
               <ul class="treeview-menu">
                 <li><a href="/pages/car_following.php"><i class="fa fa-circle-o"></i> Car Following</a></li>
                 <li><a href="/pages/lane_change.php"><i class="fa fa-circle-o"></i> Lane Change</a></li>
-                <li><a href="free_flow.php"><i class="fa fa-circle-o"></i> Free Flow</a></li>
-                <li><a href="pedestrain_crossing.php"><i class="fa fa-circle-o"></i> Pedestrain</a></li>
-                <li><a href="cyclist.php"><i class="fa fa-circle-o"></i> Cyclist</a></li>
-                <li><a href="primitiveOneDay.php"><i class="fa fa-circle-o"></i> Driving primitive</a></li>
-                <li><a href="v2v.php"><i class="fa fa-circle-o"></i> v2v</a></li>
-                <li><a href="cutInEvents.php"><i class="fa fa-circle-o"></i> Cut-in Events</a></li>
+                <li><a href="/pages/free_flow.php"><i class="fa fa-circle-o"></i> Free Flow</a></li>
+                <li><a href="/pages/pedestrain_crossing.php"><i class="fa fa-circle-o"></i> Pedestrain</a></li>
+                <li><a href="/pages/cyclist.php"><i class="fa fa-circle-o"></i> Cyclist</a></li>
+                <li><a href="/pages/primitiveOneDay.php"><i class="fa fa-circle-o"></i> Driving primitive</a></li>
+                <li><a href="/pages/v2v.php"><i class="fa fa-circle-o"></i> v2v</a></li>
+                <li><a href="/pages/cutInEvents.php"><i class="fa fa-circle-o"></i> Cut-in Events</a></li>
               </ul>
             </li>
             <li>
