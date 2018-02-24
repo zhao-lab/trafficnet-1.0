@@ -88,7 +88,7 @@
                 <div class="icon">
                   <i class="ion ion-stats-bars"></i>
                 </div>
-                <a href="https://www.its-rde.net/index.php/rdedataenvironment/10018" class="small-box-footer">More info <i class="fa fa-arrow-circle-right"></i></a>
+                <a href="https://data.transportation.gov/Automobiles/Safety-Pilot-Model-Deployment-Data/a7qq-9vfe" class="small-box-footer">More info <i class="fa fa-arrow-circle-right"></i></a>
               </div>
             </div><!-- ./col -->
             <div class="col-lg-3 col-xs-6">
