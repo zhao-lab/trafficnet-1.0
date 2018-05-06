@@ -1,0 +1,20 @@
+Loc ID,County,Community,On,From,To,Approach,At,Dir,Latitude,Longitude,Latest,Latest Date
+0010210001,Washtenaw,Salem Twp,Currie Rd,,,NORTH OF,Eight Mile Rd,2-WAY,,,1040,1/1/2008
+0010210001_NB,Washtenaw,Salem Twp,Currie Rd,,,NORTH OF,Eight Mile Rd,NB,,,,
+0010210001_SB,Washtenaw,Salem Twp,Currie Rd,,,NORTH OF,Eight Mile Rd,SB,,,,
+0010220002,Washtenaw,Salem Twp,Currie Rd,,,SOUTH OF,Eight Mile Rd,2-WAY,,,3875,1/1/2014
+0010220002_NB,Washtenaw,Salem Twp,Currie Rd,,,SOUTH OF,Eight Mile Rd,NB,,,2093,1/1/2014
+0010220002_SB,Washtenaw,Salem Twp,Currie Rd,,,SOUTH OF,Eight Mile Rd,SB,,,1782,1/1/2014
+0010230003,Washtenaw,Salem Twp,Eight Mile Rd,,,EAST OF,Currie Rd,2-WAY,,,6690,1/1/2014
+0010230003_EB,Washtenaw,Salem Twp,Eight Mile Rd,,,EAST OF,Currie Rd,EB,,,3454,1/1/2014
+0010230003_WB,Washtenaw,Salem Twp,Eight Mile Rd,,,EAST OF,Currie Rd,WB,,,3236,1/1/2014
+0010230005,Washtenaw,Salem Twp,Seven Mile Rd,,,EAST OF,Currie Rd,2-WAY,,,3234,1/1/2014
+0010230005_EB,Washtenaw,Salem Twp,Seven Mile Rd,,,EAST OF,Currie Rd,EB,,,1541,1/1/2014
+0010230005_WB,Washtenaw,Salem Twp,Seven Mile Rd,,,EAST OF,Currie Rd,WB,,,1693,1/1/2014
+0010231003,Washtenaw,Salem Twp,Eight Mile Rd,,,EAST OF,Currie Rd,WB,,,3940,1/1/2003
+0010340004,Washtenaw,Salem Twp,Eight Mile Rd,,,WEST OF,Currie Rd,2-WAY,,,6295,1/1/2014
+0010340004_EB,Washtenaw,Salem Twp,Eight Mile Rd,,,WEST OF,Currie Rd,EB,,,3160,1/1/2014
+0010340004_WB,Washtenaw,Salem Twp,Eight Mile Rd,,,WEST OF,Currie Rd,WB,,,3135,1/1/2014
+0010341004,Washtenaw,Salem Twp,Eight Mile Rd,,,WEST OF,Currie Rd,EB,,,4510,1/1/2005
+0010342004,Washtenaw,Salem Twp,Eight Mile Rd,,,WEST OF,Currie Rd,WB,,,4480,1/1/2005
+0010430036,Washtenaw,Salem Twp,Seven Mile Rd,,,EAST OF,Tower Rd,2-WAY,,,1250,1/1/2014

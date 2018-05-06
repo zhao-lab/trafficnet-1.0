@@ -1,0 +1,237 @@
+24HourCount,int,Null
+48HourAverage,char(30),Null
+5PMCount,int,Null
+AccelPedal,double,Not Null
+Altitude,double,Not Null
+AltitudeWsu,double,Null
+Approach,char(30),Null
+At,char(30),Null
+AvailableLeft,tinyint,Not Null
+AvailableRight,tinyint,Not Null
+Average Speed,int,Null
+AverageSpeed (m/s),double,Not Null
+Ax,double,Not Null
+Ax,double,Not Null
+AxRv,double,Null
+AxWsu,double,Null
+Ay,double,Not Null
+Ay,double,Not Null
+Az,double,Not Null
+BoundaryLeft,tinyint,Not Null
+BoundaryRight,tinyint,Not Null
+Brake,tinyint,Not Null
+Brake Count,double,Null
+Brake Count,double,Null
+Brake_Status,tinyint,Null
+BrakeAbsTcsWsu,tinyint,Null
+BrakeRv,tinyint,Null
+BsmPIIIRelOffset,smallint,Not Null
+BsmPIIRelOffset,smallint,Not Null
+BsmPIRelOffset,smallint,Not Null
+CertId,bigint,Not Null
+CIPV,tinyint,Not Null
+CityTwp,char(30),Null
+Community,char(30),Null
+Confidence,smallint,Not Null
+Count Date,date,Null
+CountID,smallint,Null
+County,char(30),Null
+CrossStreet,char(20),Null
+CruiseEngaged,tinyint,Not Null
+DAS_Pitch_Rate,double,Null
+DAS_Roll_Rate,double,Null
+Device,smallint,Not Null
+DeviceID,smallint,Not Null
+Differential,tinyint,Not Null
+Dir,char(30),Null
+DirectionFromCross,char(5),Null
+Distance,double,Not Null
+Distance Travelled w/ Speed >= 25mph,double,Null
+DistanceOver25MPH (km),double,Not Null
+DistanceOver55MPH (km),double,Not Null
+DSecond,int,Not Null
+EasternOffset,smallint,Null
+Elevation,double,Not Null
+ElevationOffset,smallint,Null
+ElevationRv,double,Null
+End Date,date,Null
+End Time,time,Null
+EndDate,date,Not Null
+Endtime,bigint,Not Null
+Epoch End Time,bigint,Null
+Epoch Start Time,bigint,Null
+EpochStartTime,double,Not Null
+FileId,int,Not Null
+Filename,char(50),Null
+FileTimeStampDate,date,Null
+FileTimeStampTime,time,Null
+FixMode,tinyint,Not Null
+FixQualityWsu,tinyint,Null
+FrameOffset,int,Not Null
+FrameSize,int,Not Null
+From,char(30),Null
+Gentime,bigint,Not Null
+GenTimeRelOffset,smallint,Not Null
+GeometryDirectionId,tinyint,Null
+GeometryId,smallint,Null
+GPS_Elevation,double,Null
+GPS_Fix_Quality,tinyint,Null
+GPS_Hdop,double,Null
+GPS_Heading,double,Null
+GPS_Latitude,double,Null
+GPS_Longitude,double,Null
+GPS_Number_Satellites,tinyint,Null
+GPS_Pdop,double,Null
+GPS_Speed,double,Null
+GPS_UTC_Time,bigint,Null
+GPS_Valid,tinyint,Null
+GpsBytes,int,Not Null
+GpsCoastingWsu,tinyint,Null
+GpsCoastRv,tinyint,Null
+GpsHeading,double,Not Null
+GpsHeadingWsu,double,Null
+GpsSpeed,double,Null
+GpsSpeedWsu,double,Null
+GpsTime,bigint,Not Null
+GpsTimeRv,bigint,Null
+GpsTimeWsu,bigint,Null
+GpsValidWsu,tinyint,Null
+GpsWeek,smallint,Not Null
+HdopWsu,double,Null
+Heading,double,Not Null
+HeadingRv,double,Null
+HeadlampWsu,tinyint,Null
+IntersectionId,tinyint,Null
+InVehicle_ABS_State,tinyint,Null
+InVehicle_Brake_Status,tinyint,Null
+InVehicle_Headlight_Status,tinyint,Null
+InVehicle_Longitudinal_Accel,double,Null
+InVehicle_Longitudinal_Speed,double,Null
+InVehicle_PRNDL,tinyint,Null
+InVehicle_Stability_Control_Status,tinyint,Null
+InVehicle_Steering_Position,double,Null
+InVehicle_Throttle_Position,tinyint,Null
+InVehicle_Traction_Control_Status,tinyint,Null
+InVehicle_Turn_Signal_Left,tinyint,Null
+InVehicle_Turn_Signal_Right,tinyint,Null
+InVehicle_Wiper_Status,tinyint,Null
+InVehicle_Yaw_Rate,double,Null
+LaneDistanceLeft,double,Null
+LaneDistanceRight,double,Null
+LaneHeading,double,Null
+LaneId,int,Null
+LaneNodeId,int,Null
+LaneNodeId LaneId EasternOffset NorthernOffset ElevationOffset W,char(50),Null
+LaneQualityLeft,tinyint,Null
+LaneQualityRight,tinyint,Null
+LaneTrack_Crossing_Left,tinyint,Null
+LaneTrack_Crossing_Right,tinyint,Null
+LaneTrack_Distance_Left_Marker,smallint,Null
+LaneTrack_Distance_Right_Marker,smallint,Null
+LaneTrack_Lane_Width,double,Null
+LaneTrack_Probability_Left_Exist,smallint,Null
+LaneTrack_Probability_Right_Exists,smallint,Null
+LaneTrack_Shift_Aborted,tinyint,Null
+LaneTrack_Shift_Left,tinyint,Null
+LaneTrack_Shift_Right,tinyint,Null
+LaneTrack_Shift_Successful,tinyint,Null
+LaneTrack_Type_LeftLane_LeftMarker,tinyint,Null
+LaneTrack_Type_LeftLane_RightMarker,tinyint,Null
+LaneTrack_Type_RightLane_LeftMarker,tinyint,Null
+LaneTrack_Type_RightLane_RightMarker,tinyint,Null
+Lateral_Accel,double,Null
+Latest,smallint,Null
+Latest Date,date,Null
+Latitude,double,Not Null
+Latitude,double,Null
+LatitudeRv,double,Null
+LatitudeWsu,double,Null
+Loc ID,char(30),Null
+Longitude,double,Not Null
+Longitude,double,Null
+LongitudeRv,double,Null
+LongitudeWsu,double,Null
+Longitudinal_Accel,double,Null
+Maximum Speed,double,Null
+MaximumSpeed (m/s),double,Not Null
+MsgCount,smallint,Not Null
+NorthernOffset,smallint,Null
+NumberOfSats,tinyint,Not Null
+NumTargets,smallint,Not Null
+Object_Type,tinyint,Null
+ObstacleId,smallint,Not Null
+On,char(30),Null
+PathCount,smallint,Not Null
+PCAPFileID,int,Null
+Pdop,double,Not Null
+PdopWsu,double,Null
+PeakHourCount,int,Null
+PeakHourTime,smallint,Null
+PrndlWsu,tinyint,Null
+PsIdByte,smallint,Not Null
+RadiusOfCurve,double,Not Null
+Range,double,Not Null
+Range_Rate,double,Null
+Range_X,double,Null
+Range_Y,double,Null
+RangeRate,double,Not Null
+ReceivedGpsTimeRv,bigint,Null
+RV_ID,int,Null
+RV_Number,tinyint,Null
+RV_Type,tinyint,Null
+RvDevice,smallint,Null
+RxDevice,smallint,Not Null
+Source Agency,char(30),Null
+Speed,double,Not Null
+Speed_X,double,Null
+Speed_Y,double,Null
+SpeedRv,double,Null
+SpeedWsu,double,Null
+Start Date,date,Null
+Start Time,time,Null
+StartDate,date,Not Null
+StartTime,bigint,Not Null
+Status,tinyint,Not Null
+SteerWheelPosition,double,Null
+SteerWsu,double,Null
+StreetName,char(30),Null
+Target_InPath,tinyint,Null
+Target_Moving,tinyint,Null
+TargetId,smallint,Not Null
+TargetType,tinyint,Not Null
+ThrottleWsu,double,Null
+Time,int,Not Null
+TIMID,bigint,Null
+TIMRegionId,tinyint,Null
+TIMRegionNodeId,int,Null
+To,char(30),Null
+Total Trip Distance,double,Null
+TotalTripDistance (km),double,Not Null
+TrafficCountDataID,smallint,Null
+Transversal,double,Not Null
+TravelDirection,char(20),Null
+Trip,smallint,Not Null
+Trip Duration,double,Null
+TripDuration (s),double,Not Null
+TripID,int,Not Null
+TurnSignal,tinyint,Not Null
+TurnSngLWsu,tinyint,Null
+TurnSngRWsu,tinyint,Null
+TxDevice,smallint,Not Null
+TxRandom,int,Not Null
+UtcTime,int,Not Null
+UtcWeek,int,Not Null
+ValidCanWsu,tinyint,Null
+Value,smallint,Not Null
+VersionMajor,tinyint,Null
+VersionMinor,tinyint,Null
+VsaActiveWsu,tinyint,Null
+Wiper Activated,tinyint,Null
+WiperWsu,tinyint,Null
+XOffset,smallint,Null
+Yaw_Rate,double,Null
+Yawrate,double,Not Null
+YawRate,double,Not Null
+YawRateRv,double,Null
+YawRateWsu,double,Null
+YOffset,smallint,Null
