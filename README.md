@@ -1,22 +1,22 @@
 Introduction
 ============
 
-**TrafficNet** -- is a large-scale and extensible library of naturalistic driving scenarios, aiming at bridging the gap between research datasets and practically usable information for vehicle engineers and researchers. 
+**TrafficNet** -- is a large-scale and extensible library of naturalistic driving scenarios, aiming at bridging the gap between research datasets and practically usable information for vehicle engineers and researchers.
 
-**Scripts** are availbe in the scenario scripts folder. Now the scripts of generating 8 scenario store are open sourced:
+**Scripts** are available in the scenario scripts folder. Now the scripts of generating 8 scenario store are open sourced:
 
 - Free Flow
 - Lane Departure
-- Lane Change 
+- Lane Change
 - Left Turn
-- Pedestrain Crossing
+- Pedestrian Crossing
 - Car Following
 - Intersection
 - Cyclist
 
 Requirements
 ------------
-To run the scripts, you need MySQL 5. 
+To run the scripts, you need MySQL 5.
 
 Contribution
 ------------
