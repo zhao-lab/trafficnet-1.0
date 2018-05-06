@@ -3,7 +3,7 @@ Introduction
 
 **TrafficNet** -- is a large-scale and extensible library of naturalistic driving scenarios, aiming at bridging the gap between research datasets and practically usable information for vehicle engineers and researchers.
 
-**Scripts** are available in the scenario scripts folder. Now the scripts of generating 8 scenario store are open sourced:
+**Scripts** are available in the query-scenarios folder. Now the scripts of generating 8 scenario store are open sourced:
 
 - Free Flow
 - Lane Departure
